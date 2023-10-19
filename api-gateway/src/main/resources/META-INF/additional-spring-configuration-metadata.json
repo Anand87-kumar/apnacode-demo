@@ -1,0 +1,22 @@
+{"properties": [
+  {
+    "name": "links",
+    "type": "java.lang.String",
+    "description": "A description for 'links'"
+  },
+  {
+    "name": "eureka.client.serviceUrl.defaultZone",
+    "type": "java.lang.String",
+    "description": "A description for 'eureka.client.serviceUrl.defaultZone'"
+  },
+  {
+    "name": "spring.config.import=configserver.uri",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.config.import=configserver.uri'"
+  },
+  {
+    "name": "spring.config.import=optional:configserver.uri",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.config.import=optional:configserver.uri'"
+  }
+]}
