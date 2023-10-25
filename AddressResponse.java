@@ -1,13 +1,11 @@
-package com.anand.addressservice.response;
+package com.anand.employeeservice.response;
 
 
 public class AddressResponse { 
 
 	private int id; 
 	private String city; 
-	private String state;
-	
-
+	private String state; 
 
 	public int getId() { 
 		return id; 
@@ -31,9 +29,6 @@ public class AddressResponse {
 
 	public void setState(String state) { 
 		this.state = state; 
-	}
-
-	
-	
+	} 
 } 
 
